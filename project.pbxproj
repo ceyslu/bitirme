@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		831693F52FB243FB00912B73 /* FuelExpenseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831693F42FB243FB00912B73 /* FuelExpenseService.swift */; };
+		831693F72FB2444700912B73 /* GiderEkleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831693F62FB2444700912B73 /* GiderEkleView.swift */; };
+		831693F92FB26C6600912B73 /* BakimGideri.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831693F82FB26C6600912B73 /* BakimGideri.swift */; };
+		831693FB2FB26C8A00912B73 /* BakimGideriService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831693FA2FB26C8A00912B73 /* BakimGideriService.swift */; };
+		831693FF2FB26CE900912B73 /* BakimEkleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831693FE2FB26CE900912B73 /* BakimEkleView.swift */; };
+		8361C21A2FB50E4500BE625C /* PanolarModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8361C2192FB50E4500BE625C /* PanolarModels.swift */; };
+		8361C21C2FB50E7200BE625C /* PanolarService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8361C21B2FB50E7200BE625C /* PanolarService.swift */; };
+		8361C21E2FB50EF600BE625C /* GiderDetayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8361C21D2FB50EF600BE625C /* GiderDetayView.swift */; };
+		8361C2242FB61EAC00BE625C /* MusteriIsDetayFisiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8361C2232FB61EAC00BE625C /* MusteriIsDetayFisiView.swift */; };
+		8361C2282FBA592300BE625C /* OturumYonetici.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8361C2272FBA592300BE625C /* OturumYonetici.swift */; };
+		837F9C962F87926A00CE46B2 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837F9C952F87926A00CE46B2 /* AuthService.swift */; };
+		837F9C982F87A18400CE46B2 /* MachineService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837F9C972F87A18400CE46B2 /* MachineService.swift */; };
+		837F9C9A2F886F8600CE46B2 /* JobTypeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837F9C992F886F8600CE46B2 /* JobTypeService.swift */; };
+		837F9C9C2F886FC800CE46B2 /* JobRecordService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837F9C9B2F886FC800CE46B2 /* JobRecordService.swift */; };
+		837F9C9E2F88703B00CE46B2 /* IsEkleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837F9C9D2F88703B00CE46B2 /* IsEkleView.swift */; };
+		837F9CA02F8872EB00CE46B2 /* IsTuruEkleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837F9C9F2F8872EB00CE46B2 /* IsTuruEkleView.swift */; };
+		837F9CA42F9AA85C00CE46B2 /* CustomerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837F9CA32F9AA85C00CE46B2 /* CustomerService.swift */; };
+		837F9CA62F9AA93C00CE46B2 /* MusteriEkleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837F9CA52F9AA93C00CE46B2 /* MusteriEkleView.swift */; };
+		837F9CA82F9AAA2F00CE46B2 /* MusteriDetayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837F9CA72F9AAA2F00CE46B2 /* MusteriDetayView.swift */; };
+		837F9CAA2F9AAB4700CE46B2 /* JobService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837F9CA92F9AAB4700CE46B2 /* JobService.swift */; };
+		837F9CAE2F9AB87400CE46B2 /* MusteriIsEkleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837F9CAD2F9AB87400CE46B2 /* MusteriIsEkleView.swift */; };
+		837F9CB02F9AD2AF00CE46B2 /* IsKaydiDuzenleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837F9CAF2F9AD2AF00CE46B2 /* IsKaydiDuzenleView.swift */; };
+		8397DA882F61C2D200216CEF /* SantiyemApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8397DA872F61C2D200216CEF /* SantiyemApp.swift */; };
+		8397DA8A2F61C2D200216CEF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8397DA892F61C2D200216CEF /* ContentView.swift */; };
+		8397DA8E2F61C2D300216CEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8397DA8D2F61C2D300216CEF /* Assets.xcassets */; };
+		8397DA9B2F61D40B00216CEF /* PanolarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8397DA9A2F61D40B00216CEF /* PanolarView.swift */; };
+		8397DA9D2F61D43A00216CEF /* MakinelerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8397DA9C2F61D43A00216CEF /* MakinelerView.swift */; };
+		8397DA9F2F61D45A00216CEF /* MusterilerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8397DA9E2F61D45A00216CEF /* MusterilerView.swift */; };
+		8397DAA12F61D4A100216CEF /* IslerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8397DAA02F61D4A100216CEF /* IslerView.swift */; };
+		8397DAA32F61E36100216CEF /* ProfilView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8397DAA22F61E36100216CEF /* ProfilView.swift */; };
+		8397DAA52F61E5C700216CEF /* GirisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8397DAA42F61E5C700216CEF /* GirisView.swift */; };
+		8397DAA72F61E63D00216CEF /* UyeOlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8397DAA62F61E63D00216CEF /* UyeOlView.swift */; };
+		8397DAA92F61E89000216CEF /* SifreKutusuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8397DAA82F61E89000216CEF /* SifreKutusuView.swift */; };
+		8397DAAB2F61E8C900216CEF /* SifremiUnuttumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8397DAAA2F61E8C900216CEF /* SifremiUnuttumView.swift */; };
+		8397DAAD2F61F1FE00216CEF /* Kullanici.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8397DAAC2F61F1FE00216CEF /* Kullanici.swift */; };
+		8397DAAF2F630B8B00216CEF /* Makine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8397DAAE2F630B8B00216CEF /* Makine.swift */; };
+		8397DAB12F630D5600216CEF /* Musteri.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8397DAB02F630D5600216CEF /* Musteri.swift */; };
+		8397DAB32F630DA700216CEF /* IsTuru.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8397DAB22F630DA700216CEF /* IsTuru.swift */; };
+		8397DAB52F630DD500216CEF /* YakitGideri.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8397DAB42F630DD500216CEF /* YakitGideri.swift */; };
+		8397DAB72F630E0A00216CEF /* IsKaydi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8397DAB62F630E0A00216CEF /* IsKaydi.swift */; };
+		8397DAB92F685E9700216CEF /* MakineKartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8397DAB82F685E9700216CEF /* MakineKartView.swift */; };
+		8397DABB2F6866EC00216CEF /* MakineEkleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8397DABA2F6866EC00216CEF /* MakineEkleView.swift */; };
+		8397DABD2F6867B500216CEF /* MakineDuzenleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8397DABC2F6867B500216CEF /* MakineDuzenleView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		831693F42FB243FB00912B73 /* FuelExpenseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelExpenseService.swift; sourceTree = "<group>"; };
+		831693F62FB2444700912B73 /* GiderEkleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiderEkleView.swift; sourceTree = "<group>"; };
+		831693F82FB26C6600912B73 /* BakimGideri.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BakimGideri.swift; sourceTree = "<group>"; };
+		831693FA2FB26C8A00912B73 /* BakimGideriService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BakimGideriService.swift; sourceTree = "<group>"; };
+		831693FE2FB26CE900912B73 /* BakimEkleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BakimEkleView.swift; sourceTree = "<group>"; };
+		8361C2192FB50E4500BE625C /* PanolarModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanolarModels.swift; sourceTree = "<group>"; };
+		8361C21B2FB50E7200BE625C /* PanolarService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanolarService.swift; sourceTree = "<group>"; };
+		8361C21D2FB50EF600BE625C /* GiderDetayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiderDetayView.swift; sourceTree = "<group>"; };
+		8361C2232FB61EAC00BE625C /* MusteriIsDetayFisiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusteriIsDetayFisiView.swift; sourceTree = "<group>"; };
+		8361C2272FBA592300BE625C /* OturumYonetici.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OturumYonetici.swift; sourceTree = "<group>"; };
+		837F9C932F6869FA00CE46B2 /* Santiyem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Santiyem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		837F9C952F87926A00CE46B2 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		837F9C972F87A18400CE46B2 /* MachineService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MachineService.swift; sourceTree = "<group>"; };
+		837F9C992F886F8600CE46B2 /* JobTypeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobTypeService.swift; sourceTree = "<group>"; };
+		837F9C9B2F886FC800CE46B2 /* JobRecordService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobRecordService.swift; sourceTree = "<group>"; };
+		837F9C9D2F88703B00CE46B2 /* IsEkleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsEkleView.swift; sourceTree = "<group>"; };
+		837F9C9F2F8872EB00CE46B2 /* IsTuruEkleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsTuruEkleView.swift; sourceTree = "<group>"; };
+		837F9CA32F9AA85C00CE46B2 /* CustomerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerService.swift; sourceTree = "<group>"; };
+		837F9CA52F9AA93C00CE46B2 /* MusteriEkleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusteriEkleView.swift; sourceTree = "<group>"; };
+		837F9CA72F9AAA2F00CE46B2 /* MusteriDetayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusteriDetayView.swift; sourceTree = "<group>"; };
+		837F9CA92F9AAB4700CE46B2 /* JobService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobService.swift; sourceTree = "<group>"; };
+		837F9CAD2F9AB87400CE46B2 /* MusteriIsEkleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusteriIsEkleView.swift; sourceTree = "<group>"; };
+		837F9CAF2F9AD2AF00CE46B2 /* IsKaydiDuzenleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsKaydiDuzenleView.swift; sourceTree = "<group>"; };
+		8397DA872F61C2D200216CEF /* SantiyemApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SantiyemApp.swift; sourceTree = "<group>"; };
+		8397DA892F61C2D200216CEF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8397DA8D2F61C2D300216CEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8397DA9A2F61D40B00216CEF /* PanolarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanolarView.swift; sourceTree = "<group>"; };
+		8397DA9C2F61D43A00216CEF /* MakinelerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakinelerView.swift; sourceTree = "<group>"; };
+		8397DA9E2F61D45A00216CEF /* MusterilerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusterilerView.swift; sourceTree = "<group>"; };
+		8397DAA02F61D4A100216CEF /* IslerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslerView.swift; sourceTree = "<group>"; };
+		8397DAA22F61E36100216CEF /* ProfilView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilView.swift; sourceTree = "<group>"; };
+		8397DAA42F61E5C700216CEF /* GirisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GirisView.swift; sourceTree = "<group>"; };
+		8397DAA62F61E63D00216CEF /* UyeOlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UyeOlView.swift; sourceTree = "<group>"; };
+		8397DAA82F61E89000216CEF /* SifreKutusuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SifreKutusuView.swift; sourceTree = "<group>"; };
+		8397DAAA2F61E8C900216CEF /* SifremiUnuttumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SifremiUnuttumView.swift; sourceTree = "<group>"; };
+		8397DAAC2F61F1FE00216CEF /* Kullanici.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kullanici.swift; sourceTree = "<group>"; };
+		8397DAAE2F630B8B00216CEF /* Makine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Makine.swift; sourceTree = "<group>"; };
+		8397DAB02F630D5600216CEF /* Musteri.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Musteri.swift; sourceTree = "<group>"; };
+		8397DAB22F630DA700216CEF /* IsTuru.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsTuru.swift; sourceTree = "<group>"; };
+		8397DAB42F630DD500216CEF /* YakitGideri.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YakitGideri.swift; sourceTree = "<group>"; };
+		8397DAB62F630E0A00216CEF /* IsKaydi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsKaydi.swift; sourceTree = "<group>"; };
+		8397DAB82F685E9700216CEF /* MakineKartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakineKartView.swift; sourceTree = "<group>"; };
+		8397DABA2F6866EC00216CEF /* MakineEkleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakineEkleView.swift; sourceTree = "<group>"; };
+		8397DABC2F6867B500216CEF /* MakineDuzenleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakineDuzenleView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8397DA812F61C2D200216CEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		837F9C942F87923B00CE46B2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				837F9C952F87926A00CE46B2 /* AuthService.swift */,
+				837F9C972F87A18400CE46B2 /* MachineService.swift */,
+				837F9C992F886F8600CE46B2 /* JobTypeService.swift */,
+				837F9C9B2F886FC800CE46B2 /* JobRecordService.swift */,
+				837F9CA32F9AA85C00CE46B2 /* CustomerService.swift */,
+				837F9CA92F9AAB4700CE46B2 /* JobService.swift */,
+				831693F42FB243FB00912B73 /* FuelExpenseService.swift */,
+				831693FA2FB26C8A00912B73 /* BakimGideriService.swift */,
+				8361C21B2FB50E7200BE625C /* PanolarService.swift */,
+				8361C2272FBA592300BE625C /* OturumYonetici.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8397DA7B2F61C2D200216CEF = {
+			isa = PBXGroup;
+			children = (
+				837F9C942F87923B00CE46B2 /* Services */,
+				8397DA992F61D17600216CEF /* Resources */,
+				8397DA972F61D12800216CEF /* Views */,
+				8397DA962F61D11000216CEF /* ViewModels */,
+				8397DA952F61D0F700216CEF /* Models */,
+				8397DA892F61C2D200216CEF /* ContentView.swift */,
+				8397DA8D2F61C2D300216CEF /* Assets.xcassets */,
+				8397DA872F61C2D200216CEF /* SantiyemApp.swift */,
+				837F9C932F6869FA00CE46B2 /* Santiyem.app */,
+			);
+			sourceTree = "<group>";
+		};
+		8397DA952F61D0F700216CEF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8397DAB42F630DD500216CEF /* YakitGideri.swift */,
+				8397DAAE2F630B8B00216CEF /* Makine.swift */,
+				8397DAB02F630D5600216CEF /* Musteri.swift */,
+				8397DAB22F630DA700216CEF /* IsTuru.swift */,
+				8397DAB62F630E0A00216CEF /* IsKaydi.swift */,
+				831693F82FB26C6600912B73 /* BakimGideri.swift */,
+				8361C2192FB50E4500BE625C /* PanolarModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8397DA962F61D11000216CEF /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8397DA972F61D12800216CEF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8397DA9A2F61D40B00216CEF /* PanolarView.swift */,
+				8361C21D2FB50EF600BE625C /* GiderDetayView.swift */,
+				8397DAA22F61E36100216CEF /* ProfilView.swift */,
+				831693F62FB2444700912B73 /* GiderEkleView.swift */,
+				8397DAAC2F61F1FE00216CEF /* Kullanici.swift */,
+				8397DAA42F61E5C700216CEF /* GirisView.swift */,
+				8397DAA82F61E89000216CEF /* SifreKutusuView.swift */,
+				8397DAAA2F61E8C900216CEF /* SifremiUnuttumView.swift */,
+				8397DA9C2F61D43A00216CEF /* MakinelerView.swift */,
+				8397DAB82F685E9700216CEF /* MakineKartView.swift */,
+				8397DABC2F6867B500216CEF /* MakineDuzenleView.swift */,
+				8397DABA2F6866EC00216CEF /* MakineEkleView.swift */,
+				831693FE2FB26CE900912B73 /* BakimEkleView.swift */,
+				8397DAA62F61E63D00216CEF /* UyeOlView.swift */,
+				8397DAA02F61D4A100216CEF /* IslerView.swift */,
+				837F9C9D2F88703B00CE46B2 /* IsEkleView.swift */,
+				837F9C9F2F8872EB00CE46B2 /* IsTuruEkleView.swift */,
+				837F9CA52F9AA93C00CE46B2 /* MusteriEkleView.swift */,
+				8397DA9E2F61D45A00216CEF /* MusterilerView.swift */,
+				837F9CA72F9AAA2F00CE46B2 /* MusteriDetayView.swift */,
+				837F9CAD2F9AB87400CE46B2 /* MusteriIsEkleView.swift */,
+				8361C2232FB61EAC00BE625C /* MusteriIsDetayFisiView.swift */,
+				837F9CAF2F9AD2AF00CE46B2 /* IsKaydiDuzenleView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8397DA992F61D17600216CEF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8397DA832F61C2D200216CEF /* Santiyem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8397DA912F61C2D300216CEF /* Build configuration list for PBXNativeTarget "Santiyem" */;
+			buildPhases = (
+				8397DA802F61C2D200216CEF /* Sources */,
+				8397DA812F61C2D200216CEF /* Frameworks */,
+				8397DA822F61C2D200216CEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Santiyem;
+			packageProductDependencies = (
+			);
+			productName = Santiyem;
+			productReference = 837F9C932F6869FA00CE46B2 /* Santiyem.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8397DA7C2F61C2D200216CEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2630;
+				LastUpgradeCheck = 2630;
+				TargetAttributes = {
+					8397DA832F61C2D200216CEF = {
+						CreatedOnToolsVersion = 26.3;
+					};
+				};
+			};
+			buildConfigurationList = 8397DA7F2F61C2D200216CEF /* Build configuration list for PBXProject "Santiyem" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8397DA7B2F61C2D200216CEF;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8397DA7B2F61C2D200216CEF;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8397DA832F61C2D200216CEF /* Santiyem */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8397DA822F61C2D200216CEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8397DA8E2F61C2D300216CEF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8397DA802F61C2D200216CEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8397DA8A2F61C2D200216CEF /* ContentView.swift in Sources */,
+				837F9CAE2F9AB87400CE46B2 /* MusteriIsEkleView.swift in Sources */,
+				837F9CAA2F9AAB4700CE46B2 /* JobService.swift in Sources */,
+				837F9C982F87A18400CE46B2 /* MachineService.swift in Sources */,
+				8397DABD2F6867B500216CEF /* MakineDuzenleView.swift in Sources */,
+				837F9C9E2F88703B00CE46B2 /* IsEkleView.swift in Sources */,
+				831693F52FB243FB00912B73 /* FuelExpenseService.swift in Sources */,
+				8397DAA32F61E36100216CEF /* ProfilView.swift in Sources */,
+				837F9C9A2F886F8600CE46B2 /* JobTypeService.swift in Sources */,
+				8397DAB52F630DD500216CEF /* YakitGideri.swift in Sources */,
+				831693FF2FB26CE900912B73 /* BakimEkleView.swift in Sources */,
+				8361C21A2FB50E4500BE625C /* PanolarModels.swift in Sources */,
+				837F9CA02F8872EB00CE46B2 /* IsTuruEkleView.swift in Sources */,
+				831693F92FB26C6600912B73 /* BakimGideri.swift in Sources */,
+				8397DAAB2F61E8C900216CEF /* SifremiUnuttumView.swift in Sources */,
+				8397DAA72F61E63D00216CEF /* UyeOlView.swift in Sources */,
+				837F9C962F87926A00CE46B2 /* AuthService.swift in Sources */,
+				8397DAB32F630DA700216CEF /* IsTuru.swift in Sources */,
+				8397DAA92F61E89000216CEF /* SifreKutusuView.swift in Sources */,
+				8361C21C2FB50E7200BE625C /* PanolarService.swift in Sources */,
+				8397DA9D2F61D43A00216CEF /* MakinelerView.swift in Sources */,
+				837F9C9C2F886FC800CE46B2 /* JobRecordService.swift in Sources */,
+				8397DAAF2F630B8B00216CEF /* Makine.swift in Sources */,
+				8397DAAD2F61F1FE00216CEF /* Kullanici.swift in Sources */,
+				837F9CB02F9AD2AF00CE46B2 /* IsKaydiDuzenleView.swift in Sources */,
+				831693F72FB2444700912B73 /* GiderEkleView.swift in Sources */,
+				8397DAA52F61E5C700216CEF /* GirisView.swift in Sources */,
+				8361C2282FBA592300BE625C /* OturumYonetici.swift in Sources */,
+				831693FB2FB26C8A00912B73 /* BakimGideriService.swift in Sources */,
+				8397DAA12F61D4A100216CEF /* IslerView.swift in Sources */,
+				8397DABB2F6866EC00216CEF /* MakineEkleView.swift in Sources */,
+				8397DA9B2F61D40B00216CEF /* PanolarView.swift in Sources */,
+				8397DAB92F685E9700216CEF /* MakineKartView.swift in Sources */,
+				8397DA9F2F61D45A00216CEF /* MusterilerView.swift in Sources */,
+				837F9CA82F9AAA2F00CE46B2 /* MusteriDetayView.swift in Sources */,
+				8397DAB72F630E0A00216CEF /* IsKaydi.swift in Sources */,
+				837F9CA42F9AA85C00CE46B2 /* CustomerService.swift in Sources */,
+				8361C21E2FB50EF600BE625C /* GiderDetayView.swift in Sources */,
+				8361C2242FB61EAC00BE625C /* MusteriIsDetayFisiView.swift in Sources */,
+				837F9CA62F9AA93C00CE46B2 /* MusteriEkleView.swift in Sources */,
+				8397DA882F61C2D200216CEF /* SantiyemApp.swift in Sources */,
+				8397DAB12F630D5600216CEF /* Musteri.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8397DA8F2F61C2D300216CEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8397DA902F61C2D300216CEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8397DA922F61C2D300216CEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sen.Santiyem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8397DA932F61C2D300216CEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sen.Santiyem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8397DA7F2F61C2D200216CEF /* Build configuration list for PBXProject "Santiyem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8397DA8F2F61C2D300216CEF /* Debug */,
+				8397DA902F61C2D300216CEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8397DA912F61C2D300216CEF /* Build configuration list for PBXNativeTarget "Santiyem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8397DA922F61C2D300216CEF /* Debug */,
+				8397DA932F61C2D300216CEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8397DA7C2F61C2D200216CEF /* Project object */;
+}
